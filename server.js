@@ -6,7 +6,11 @@ var express    = require('express');
 var app        = express();
 var bodyParser = require('body-parser');
 var path       = require("path");
+var Sequelize  = require('sequelize');
 
+// DataBase SETUP
+// =============================================================================
+//require('./config/database.js')(Sequelize); //Uncomment this line after setup config in config/database.js
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST

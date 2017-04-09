@@ -1,6 +1,6 @@
 # node-rest-frontend
 
-Basic Structure using node and express like server and frontend
+Basic Structure using node and express like server and frontend (ORM Sequalize integrated)
 
 # Install node dependecies
   * sudo apt install npm node  
@@ -13,6 +13,8 @@ Basic Structure using node and express like server and frontend
 # Documentation
   * Project Structure
     * node-rest-frontend
+      * config
+        * database.js (db configurations sequalize)
       * node_modules (node packages)
       * routes (heres where the router goes)
         * api.js (Routes for api)
@@ -25,4 +27,11 @@ Basic Structure using node and express like server and frontend
   - [x] localhost:8080 (Client Side)
   - [x] localhost:8080/api/v1 (Rest Side)
                     
-     
+  * Database
+    * Configuration located in folder config database.js (http://docs.sequelizejs.com/en/v3/)
+    * Support:
+      - [x] PostgreSQL
+      - [x] MySQL
+      - [x] MariaDB
+      - [x] SQLite
+      - [x] MSSQL
